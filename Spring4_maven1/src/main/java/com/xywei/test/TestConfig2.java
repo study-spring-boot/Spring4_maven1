@@ -22,7 +22,7 @@ public class TestConfig2 {
 		AnnotationConfigApplicationContext configApplicationContext = new AnnotationConfigApplicationContext(
 				JavaBeanConfig2.class);
 		FunctionService2 service = configApplicationContext.getBean(FunctionService2.class);
-		System.out.println(service.sayHello("海峡"));
+		System.out.println(service.sayHelloByDao("海峡"));
 		configApplicationContext.close();
 	}
 

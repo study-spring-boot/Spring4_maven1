@@ -2,18 +2,18 @@ package com.xywei.service;
 
 public class UseFunctionService2 {
 
-	private FunctionService functionService;
+	private FunctionService2 functionService2;
 
-	public void setFunctionService(FunctionService functionService) {
-		this.functionService = functionService;
+	public void setFunctionService2(FunctionService2 functionService2) {
+		this.functionService2 = functionService2;
 	}
 
 	public String sayHello(String word) {
-		return functionService.sayHello(word);
+		return functionService2.sayHello(word);
 
 	}
 
 	public String sayHello2(String word) {
-		return functionService.sayHello2(word);
+		return functionService2.sayHello(word);
 	}
 }
